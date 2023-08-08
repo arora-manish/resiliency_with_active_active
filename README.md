@@ -16,10 +16,10 @@ This document aims to outline the technical considerations adopted by Redis's cu
 
 Key considerations for building a resilient architecture include:
 
-Embracing a loosely coupled, independent component approach to enhance flexibility and resiliency.
-Designing services to be stateless and accessing resources locally within their respective regions.
-Avoiding cross-regional calls whenever feasible.
-Implementing asynchronous data replication in the data tier to ensure data consistency and redundancy.
+- Embracing a loosely coupled, independent component approach to enhance flexibility and resiliency.
+- Designing services to be stateless and accessing resources locally within their respective regions.
+- Avoiding cross-regional calls whenever feasible.
+- Implementing asynchronous data replication in the data tier to ensure data consistency and redundancy.
 
 By following these technical considerations, organizations can bolster the resiliency of their systems and better prepare for potential disruptions.
 
